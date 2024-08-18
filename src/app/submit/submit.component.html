@@ -1,0 +1,21 @@
+<div class="text-center">
+    <h1>Your Detail has Submitted </h1>
+    <h2>we'll back to you!!!!</h2>
+</div>
+
+<br>
+<br>
+
+
+<div class="text-center">
+    <h1>Your Detail</h1>
+</div>
+<br>
+
+<div class="text-center">
+    <h2 *ngFor="let name of user" class="text-info">
+    Name - {{name.name}} <br>
+    Email - {{name.email}} <br>
+    Message - {{name.comment}}
+    </h2>
+  </div>

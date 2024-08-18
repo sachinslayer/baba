@@ -1,0 +1,62 @@
+.carousel-inner {
+    height: 40%;
+    width:100%
+  }
+.work{
+  color:black
+}
+.inst{
+  background-color: aqua;
+  padding: 20px;
+}
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #27ae60;
+}
+img{
+  max-width: 100%;
+}
+
+
+.py-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.custom-img-size {
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+}
+.carousel-container {
+  position: relative;
+}
+
+.typed-container {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+#carouselExampleCaptions{
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+
+}
+

@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg transparent-navbar bg-dark">
+  <div class="container-fluid">
+    <strong>
+      <a class="navbar-brand text-info" text routerLink="#">BaBa Pharmatech</a>
+    </strong>
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="space"></div>
+    <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-6 mb-lg-0 ">
+        <li class="nav-item">
+          <strong>
+            <a class="nav-link custom text-info" routerLink="" >Home</a>
+          </strong>
+        </li>
+        <li class="nav-item">
+          <strong>
+            <a class="nav-link custom text-info" routerLink="about" routerLinkActive="active">About</a>
+          </strong>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle custom text-info font-weight=bolder" routerLink="product" routerLinkActive="active"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+          <ul class="dropdown-menu bg-light">
+            <li><a class="dropdown-item fw-bold many" routerLink="productImg">Images</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item fw-bold many" routerLink="productVideo">Videos</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item fw-bold many" routerLink="home">Smart</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ">
+          <strong>
+            <a class="nav-link custom text-info" routerLink="contact" routerLinkActive="active">Contact</a>
+          </strong>
+        </li>
+      </ul>
+      
+
+      <div class="Legit">
+        <strong>
+          <p class="text-center text-info" ><i class="fas fa-phone me-3"></i> +91 7977270140 , 9892332725</p>
+        </strong>
+        <p class="text-center text-info"><i class="fas fa-clock me-3"></i>The Date is {{today | date:'medium'}}</p>
+      </div>
+    </div>
+  </div>
+</nav>
